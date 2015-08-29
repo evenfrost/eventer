@@ -1,0 +1,11 @@
+{
+  "name": "eventer",
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "eventer.js",
+  "format": "es6",
+  "registry": "jspm",
+  "dependencies": {}
+}
+
