@@ -5,6 +5,7 @@ A tiny event emitter.
 import Eventer from 'eventer';
 const eventer = new Eventer();
 ```
+Based on the [Map](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Map) specification, so you will need a [polyfill](https://github.com/zloirock/core-js) if your environment does not support it.
 
 ### Methods
 
