@@ -1,11 +1,14 @@
 {
   "name": "eventer",
+  "version": "0.1.0",
+  "description": "A tiny event emitter.",
+  "keywords": ["event", "events", "emitter"],
   "directories": {
     "lib": "lib"
   },
   "main": "eventer.js",
   "format": "es6",
-  "registry": "jspm",
+  "registry": "github",
   "dependencies": {}
 }
 

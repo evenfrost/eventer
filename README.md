@@ -8,16 +8,16 @@ const eventer = new Eventer();
 
 ### Methods
 
-#### on
+#### add
 Adds an event listener.
 ```javascript
-eventer.on('user:added', name => console.log('User name is ${name}.'));
+eventer.add('user:added', name => console.log(`User name is ${name}.`));
 ```
 
-#### off
+#### remove
 Removes an event listener.
 ```javascript
-eventer.off('user:added', onUserAdd);
+eventer.remove('user:added', onUserAdd);
 ```
 
 #### emit
