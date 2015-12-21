@@ -7,6 +7,14 @@ const eventer = new Eventer();
 ```
 Based on the [Map](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Map) specification, so you will need a [polyfill](https://github.com/zloirock/core-js) if your environment does not support it.
 
+### Installation
+
+#### jspm
+`jspm install eventer=github:evenfrost/eventer`
+
+#### npm
+`npm install evenfrost/eventer`
+
 ### Methods
 
 #### add
